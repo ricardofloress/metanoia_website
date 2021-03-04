@@ -105,6 +105,11 @@ export const BtnWrapper = styled.div`
     &:hover{
         opacity: 0.7;
     }
+
+    
+    @media screen and (max-width: 768px){
+        display: none;
+    }
 `;
 
 
@@ -117,7 +122,7 @@ export const TextWrapper = styled.div`
 
     @media screen and (max-width: 768px){
         width: 80%;
-        margin-top: 200px;
+        margin-top: 100px;
     }
 `;
 
@@ -172,6 +177,19 @@ export const FirstText = styled.h1`
 
     @media screen and (max-width: 768px){
         text-align: center;
+
+        &:after{
+            margin: 15px auto;
+        }
+    }
+
+    &:after{
+        background-color: rgb(193 193 193);
+        content: "";
+        display: block;
+        width: 85px;
+        height: 1px;
+        margin-top: 15px;
     }
 `;
 
