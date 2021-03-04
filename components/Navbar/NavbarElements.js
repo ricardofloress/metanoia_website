@@ -85,7 +85,8 @@ export const MenuItem = styled.h2`
     
     &:hover{
         color: #b6ccd6;
-        font-size:12.2px;
+        -webkit-text-stroke: 0.4px ;
+        //font-size:12.2px;
     }
 `;
 
