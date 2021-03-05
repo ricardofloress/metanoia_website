@@ -2,6 +2,7 @@ import '../styles/globals.css';
 import React, { useState } from 'react';
 import Navbar from '../components/Navbar';
 import Sidebar from '../components/Sidebar';
+import Footer from '../components/Footer';
 
 
 function MyApp({ Component, pageProps }) {
@@ -15,8 +16,8 @@ function MyApp({ Component, pageProps }) {
     <>
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
-
       <Component {...pageProps} />
+      <Footer />
 
     </>);
 }
