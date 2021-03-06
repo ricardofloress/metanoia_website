@@ -54,15 +54,11 @@ const Footer = () => {
                             Metanoia © {new Date().getFullYear()} Todos os direitos reservados.
                         </WebsiteRights>
                         <SocialIcons>
-                            <SocialIconLink>
-                                <Link href='/' target='_blank' aria-label='Facebook'>
-                                    <FaFacebook />
-                                </Link>
+                            <SocialIconLink href="https://www.facebook.com/metanoiacreating/" target='_blank' aria-label='Facebook'>
+                                <FaFacebook />
                             </SocialIconLink>
-                            <SocialIconLink>
-                                <Link href='/' target='_blank' aria-label='Facebook'>
-                                    <FaInstagram />
-                                </Link>
+                            <SocialIconLink href="https://www.instagram.com/metanoiacreating/" target='_blank' aria-label='Instagram'>
+                                <FaInstagram />
                             </SocialIconLink>
                         </SocialIcons>
                     </SocialMediaWrap>

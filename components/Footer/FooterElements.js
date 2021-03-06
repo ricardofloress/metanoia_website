@@ -167,10 +167,10 @@ export const LinksSeparator = styled.div`
 export const SocialIconLink = styled.a`
     color: #ffffff; 
     font-size:24px;
+    transition: all 0.3s ease;
 
     &:hover{
         cursor: pointer;
         transform: translateY(-5px);
-        transition: 0.3s ease-out;
     }
 `;

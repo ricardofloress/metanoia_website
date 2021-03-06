@@ -18,12 +18,12 @@ const Sidebar = ({ isOpen, toggle }) => {
                 </SidebarMenu>
                 <SidebarSeparator />
                 <SocialMediaWrapper>
-                    <SocialMediaLink>
+                    <SocialMediaLink href="https://www.facebook.com/metanoiacreating/" target='_blank' aria-label='Facebook'>
                         <SocialMediaIcon>
                             <FaFacebook />
                         </SocialMediaIcon>
                     </SocialMediaLink>
-                    <SocialMediaLink>
+                    <SocialMediaLink href="https://www.instagram.com/metanoiacreating/" target='_blank' aria-label='Instagram'>
                         <SocialMediaIcon>
                             <FaInstagram />
                         </SocialMediaIcon>
