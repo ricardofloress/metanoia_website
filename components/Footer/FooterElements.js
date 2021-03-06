@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const FooterContainer = styled.footer`
-    background: #baccd1;
+    background: #b6ccd6;
     font-family: 'Roboto';
 
 `;
