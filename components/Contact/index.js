@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { ContactContainer, ContactFormWrapper, ContactForm, ContactInfo, ContactWrapper, StyledButton, FromTitle, StyledError, StyledInput, StyledTextArea } from "./ContactElements";
+import { ContactContainer, ContactFormWrapper, ContactForm, ContactInfo, ContactWrapper, StyledButton, FromTitle, StyledError, StyledInput, StyledTextArea, ContactInfoBg, ConatctInfoTextText, ConatctInfoTextTitle, ContactInfoTextWrapper, Separator, ContactMailIcon } from "./ContactElements";
 import emailjs from 'emailjs-com';
+import { FiMail } from 'react-icons/fi';
 
 const initalFormState = {
     name: '',
@@ -93,7 +94,16 @@ const Contact = () => {
                         </ContactForm>
                     </ContactFormWrapper>
                     <ContactInfo>
-
+                        <ContactInfoBg />
+                        <ContactInfoTextWrapper>
+                            <ConatctInfoTextTitle>
+                                Contacta-me diretamente por:
+                            </ConatctInfoTextTitle>
+                            <Separator />
+                            <ConatctInfoTextText href="mailto:geral@metanoiacreating.pt">
+                                <ContactMailIcon><FiMail /></ContactMailIcon> geral@metanoiacreating.pt
+                            </ConatctInfoTextText>
+                        </ContactInfoTextWrapper>
                     </ContactInfo>
                 </ContactWrapper>
             </ContactContainer>

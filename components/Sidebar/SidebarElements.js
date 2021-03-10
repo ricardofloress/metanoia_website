@@ -61,10 +61,12 @@ export const SidebarLink = styled.h2`
     font-weight: 300;
     font-style: normal;
     font-size: 16px;
+    transition: all 0.2s ease;
+
 
     &:hover{
-        transition: 0.2s ease-in-out;
-        color: #d74341;
+        transition: all 0.2s ease-in-out;
+        -webkit-text-stroke: 0.4px ;
     }
 
     @media screen and (max-width: 480px){

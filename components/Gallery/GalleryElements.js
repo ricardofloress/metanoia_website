@@ -5,6 +5,7 @@ export const GalleryContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 `;
 
 export const GalleryTitle = styled.h1`

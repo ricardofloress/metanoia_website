@@ -171,6 +171,6 @@ export const SocialIconLink = styled.a`
 
     &:hover{
         cursor: pointer;
-        transform: translateY(-5px);
+        transform: translateY(-2px);
     }
 `;
