@@ -11,7 +11,7 @@ export const ParallaxContainer = styled.div`
 export const ParallaxWrapper = styled.div`
     width: 100%;
     display: flex;    
-    height: 700px;
+    height: 500px;
     justify-content: center;
     align-items: center;
     background-image: url(${({ imgBg }) => (imgBg ? imgBg : imgBg)});
@@ -22,7 +22,7 @@ export const ParallaxWrapper = styled.div`
 `;
 
 export const InfoWrapper = styled.div`
-    padding: 50px;
+    padding: 25px;
     width: 45%;
     background-color: #ffffff;
     display: flex;
@@ -55,6 +55,7 @@ export const Title = styled.h3`
     font-style: normal;
     align-self: flex-start;
     position: relative;
+    margin-top: 0;
 
     &:after{
         background-color: rgb(193 193 193);

@@ -33,7 +33,7 @@ export const GalleryTitleContainer = styled.div`
 export const GalleryWrapper = styled.div`
     width: 100%;
     display: flex;    
-    max-width: 1114px;
+    max-width: 1000px;
     justify-content: center;
     align-items: center;
     padding: 20px;
@@ -52,6 +52,7 @@ export const GalleryColumn = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin: 0 5px;
     @media screen and (max-width: 768px){
         width: 100%;
     }
@@ -64,6 +65,7 @@ export const GallerySquare = styled.div`
     background-size: cover;
     background-position: center;
     background-image: url(${({ imgBg }) => (imgBg ? imgBg : imgBg)});
+    margin: 5px 0;
 
     &:hover {
         opacity: 0.6;

@@ -11,7 +11,7 @@ export const Home1Container = styled.div`
 `;
 
 export const Home1Wrapper = styled.div`
-    height: 750px;
+    height: 520px;
     width: 100%;
     justify-content: center;
     align-items: center;
@@ -83,14 +83,14 @@ export const FloatingDivWrapper = styled.div`
 
 
 export const BtnWrapper = styled.div`
-    width: 230px;
+    width: 150px;
     height: 50px;
     position: absolute;
     justify-content: center;
     align-items: center;
     display: flex;
     right: 0;
-    bottom: 10%;
+    bottom: 5%;
     background-color: #b6ccd6;
     color: #ffffff;
     text-transform: uppercase;
