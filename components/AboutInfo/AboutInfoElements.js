@@ -25,7 +25,7 @@ export const AboutWrapper = styled.div`
 `;
 
 export const LeftDivWrapper = styled.div`
-    width: 45%;
+    width: 50%;
     height: 100%;
     background-color: rgb(234 227 217);
 
