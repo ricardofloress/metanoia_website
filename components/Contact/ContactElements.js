@@ -2,7 +2,7 @@
 import styled from "styled-components";
 
 export const ContactContainer = styled.div`
-    height: 500px;
+    height: 400px;
     margin-top: 80px;
     width: 100%;
     display: flex;
