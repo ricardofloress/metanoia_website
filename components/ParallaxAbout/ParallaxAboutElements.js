@@ -11,7 +11,7 @@ export const ParallaxContainer = styled.div`
 export const ParallaxWrapper = styled.div`
     width: 100%;
     display: flex;    
-    height: 500px;
+    height: 400px;
     justify-content: center;
     align-items: center;
     background-image: url(${({ imgBg }) => (imgBg ? imgBg : imgBg)});

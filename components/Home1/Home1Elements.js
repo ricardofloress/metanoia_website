@@ -11,7 +11,7 @@ export const Home1Container = styled.div`
 `;
 
 export const Home1Wrapper = styled.div`
-    height: 520px;
+    height: 460px;
     width: 100%;
     justify-content: center;
     align-items: center;

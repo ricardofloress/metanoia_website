@@ -19,10 +19,10 @@ const AboutInfo = () => {
                                 A STUDIO DEDICATED
                             </Title>
                             <FirstText>
-                                TO CRAFTING THOUGHTFUL AND STRATEGIC DESIGN THAT BRINGS BUSINESSES TO THE NEXT LEVEL.
+                                TO CRAFTING THOUGHTFUL AND STRATEGIC DESIGN.
                             </FirstText>
                             <SecondText>
-                                As an entrepreneur, you know how much effort and passion it takes everyday to push your business one step forward. It's the same for me and my business... And that's why I'm so passionate about what I do!  A business is so much more than just a logo and a website – it's a personality with a story, and I love discovering that story and telling it through design.
+                                As an entrepreneur, you know how much effort and passion it takes everyday to push your business one step forward. It's the same for me and my business... And that's why I'm so passionate about what I do!  A business is so much more than just a logo and a website – it's a personality with a story.
                             </SecondText>
                         </TextWrapper>
                     </RightDivWrapper>
