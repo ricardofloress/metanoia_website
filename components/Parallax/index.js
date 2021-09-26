@@ -10,7 +10,7 @@ const Parallax = ({ imgBg, link }) => {
                     <BtnWrapper>
                         <Btntext>
                             <Link href={link}>
-                                View Our Work  &#8594;
+                            PORTEFÓLIO  &#8594;
                             </Link>
                         </Btntext>
                     </BtnWrapper>

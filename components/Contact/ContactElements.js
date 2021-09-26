@@ -2,7 +2,7 @@
 import styled from "styled-components";
 
 export const ContactContainer = styled.div`
-    height: 400px;
+    height: 80vh;
     margin-top: 80px;
     width: 100%;
     display: flex;
@@ -275,3 +275,29 @@ export const Separator = styled.div`
     margin: 0 auto;
 `;
 
+export const SocialMediaWrapper = styled.div`
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+
+    @media screen and (max-width: 991px){
+    }
+`;
+
+export const SocialMediaLink = styled.a`
+    color: #fff; 
+    font-size:40px;
+    transition: 0.3s ease-out;
+
+    &:hover{
+        transform: translateY(-5px);
+        transition: 0.3s ease-out;
+        cursor: pointer;
+    }
+`;
+
+export const SocialMediaIcon = styled.div`
+    text-decoration: none;
+`;

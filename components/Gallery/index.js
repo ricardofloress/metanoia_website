@@ -7,8 +7,8 @@ const Gallery = () => {
         <>
             <GalleryTitleContainer>
                 <GalleryTitle>
-                    TRABALHOS
-            </GalleryTitle>
+                    PORTEFÓLIO
+                </GalleryTitle>
             </GalleryTitleContainer>
             <GalleryContainer>
                 <GalleryWrapper>

@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { ContactContainer, ContactFormWrapper, ContactForm, ContactInfo, ContactWrapper, StyledButton, FromTitle, StyledError, StyledInput, StyledTextArea, ContactInfoBg, ConatctInfoTextText, ConatctInfoTextTitle, ContactInfoTextWrapper, Separator, ContactMailIcon } from "./ContactElements";
+import { SocialMediaIcon, SocialMediaLink, SocialMediaWrapper, ContactContainer, ContactFormWrapper, ContactForm, ContactInfo, ContactWrapper, StyledButton, FromTitle, StyledError, StyledInput, StyledTextArea, ContactInfoBg, ConatctInfoTextText, ConatctInfoTextTitle, ContactInfoTextWrapper, Separator, ContactMailIcon } from "./ContactElements";
 import emailjs from 'emailjs-com';
 import { FiMail } from 'react-icons/fi';
+import { FaFacebook, FaInstagram } from "react-icons/fa";
 
 const initalFormState = {
     name: '',
@@ -97,12 +98,21 @@ const Contact = () => {
                         <ContactInfoBg />
                         <ContactInfoTextWrapper>
                             <ConatctInfoTextTitle>
-                                Contacta-me diretamente por:
+                                Contacta-me diretamente:
                             </ConatctInfoTextTitle>
                             <Separator />
-                            <ConatctInfoTextText href="mailto:geral@metanoiacreating.pt">
-                                <ContactMailIcon><FiMail /></ContactMailIcon> geral@metanoiacreating.pt
-                            </ConatctInfoTextText>
+                            <SocialMediaWrapper>
+                                <SocialMediaLink href="https://www.facebook.com/metanoiacreating/" target='_blank' aria-label='Facebook'>
+                                    <SocialMediaIcon>
+                                        <FaFacebook />
+                                    </SocialMediaIcon>
+                                </SocialMediaLink>
+                                <SocialMediaLink href="https://www.instagram.com/metanoiacreating/" target='_blank' aria-label='Instagram'>
+                                    <SocialMediaIcon>
+                                        <FaInstagram />
+                                    </SocialMediaIcon>
+                                </SocialMediaLink>
+                            </SocialMediaWrapper>
                         </ContactInfoTextWrapper>
                     </ContactInfo>
                 </ContactWrapper>

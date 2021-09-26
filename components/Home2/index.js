@@ -15,7 +15,8 @@ const Home2 = () => {
                     <Separator />
                     <TextWrapper>
                         <Text>
-                            "If you choose Amarie Lael Design to help springboard your business, you can expect beyond-professional quality and the utmost attention to detail. Amarie has not only the technical skills to make your business’s brand shine, but she also has a true artist’s heart. When designing, she not only implements elements of her own appealing style, but she makes certain to implement what her client envisions as well. Without a doubt, Amarie Lael Design is your place for all your business branding needs and more."
+                            Cada produto, é para mim, um desafio, desenhado e elaborado à medida do cliente, carregando um pouco do meu olhar, sensibilidade e inspiração.
+                            Sejam bem-vindos a esta nova marca, portuguesa, que agora também é vossa.
                         </Text>
                     </TextWrapper>
                 </Home2Wrapper>

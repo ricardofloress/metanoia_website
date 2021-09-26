@@ -82,7 +82,6 @@ export const FloatingDivWrapper = styled.div`
 
 export const TextWrapper = styled.div`
     justify-content: center;
-    align-items: center;
     display: flex;
     flex-direction: column;
     width: 50%;

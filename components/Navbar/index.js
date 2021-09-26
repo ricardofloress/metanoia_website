@@ -36,8 +36,8 @@ const Navbar = ({ toggle }) => {
                         <LogoWrapper>
                             <Link href="/">
                                 <Image
-                                    src="/images/metanoia_logo.jpg" // Route of the image file
-                                    height={75} // Desired size with correct aspect ratio
+                                    src="/images/metanoia_logo.png" // Route of the image file
+                                    height={60} // Desired size with correct aspect ratio
                                     width={100} // Desired size with correct aspect ratio
                                     alt="Metanoia"
                                 />
@@ -54,7 +54,7 @@ const Navbar = ({ toggle }) => {
                             <MenuItem>
 
                                 <MenuLink href="/trabalhos">
-                                    Trabalhos
+                                    Portefólio
                                 </MenuLink>
                             </MenuItem>
                             <MenuItem>

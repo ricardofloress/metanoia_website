@@ -16,13 +16,14 @@ const AboutInfo = () => {
                     <RightDivWrapper>
                         <TextWrapper>
                             <Title>
-                                A STUDIO DEDICATED
+                                ANA
                             </Title>
                             <FirstText>
-                                TO CRAFTING THOUGHTFUL AND STRATEGIC DESIGN.
+
                             </FirstText>
                             <SecondText>
-                                As an entrepreneur, you know how much effort and passion it takes everyday to push your business one step forward. It's the same for me and my business... And that's why I'm so passionate about what I do!  A business is so much more than just a logo and a website – it's a personality with a story.
+                                Sou estudante na área de turismo, experiente em decoração e flores, agora fundadora da marca Metanoia e convicta de que será um projeto que pode unir o melhor destes dois mundos.
+                                <br />Sou apaixonada por turismo de natureza e por todos os seus pormenores, e foi da vontade de trazer até casa um pouco dessa beleza que fez surgiu o conceito da Metanoia onde cada detalhe é repleto de amor.
                             </SecondText>
                         </TextWrapper>
                     </RightDivWrapper>

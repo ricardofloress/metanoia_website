@@ -21,22 +21,22 @@ const Footer = () => {
                             <FooterLink>
                                 <Link href="/">
                                     Home
-                               </Link>
+                                </Link>
                             </FooterLink>
                             <FooterLink>
                                 <Link href="/trabalhos">
-                                    Trabalhos
-                               </Link>
+                                Portefólio
+                                </Link>
                             </FooterLink>
                             <FooterLink>
                                 <Link href="/sobre">
                                     Sobre
-                               </Link>
+                                </Link>
                             </FooterLink>
                             <FooterLink>
                                 <Link href="/contactos">
                                     Contactos
-                               </Link>
+                                </Link>
                             </FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
@@ -45,8 +45,8 @@ const Footer = () => {
                     <SocialMediaWrap>
                         <SocialLogo to='/' onClick={toggleHome}>
                             <Image
-                                src="/images/metanoia-logo-reverse.png" // Route of the image file
-                                height={90} // Desired size with correct aspect ratio
+                                src="/images/metanoia_logo_reverse.png" // Route of the image file
+                                height={60} // Desired size with correct aspect ratio
                                 width={90} // Desired size with correct aspect ratio
                                 alt="Metanoia" />
                         </SocialLogo>

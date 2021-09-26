@@ -10,12 +10,12 @@ const ParallaxAbout = ({ imgBg, link }) => {
                     <InfoWrapper>
                         <Infotext>
                             <Title>
-                                A STUDIO DEDICATED
+                                METANOIA
                             </Title>
                             <FirstText>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                                molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                                numquam blanditiis harum quisquam eius.
+                                Este sonho foi plantado no meu coração por uma razão
+                                <br />E, por onde eu for, vou florescer.
+
                             </FirstText>
                         </Infotext>
                     </InfoWrapper>

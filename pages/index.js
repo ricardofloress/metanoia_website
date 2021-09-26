@@ -12,10 +12,8 @@ export default function Home() {
     <>
       <Home1 />
       <Products />
-      <Parallax link="/" imgBg="/images/parallax-metanoia.jpg" />
+      <Parallax link="/trabalhos" imgBg="/images/parallax-metanoia.jpg" />
       <Home2 />
-      <Parallax link="/" imgBg="/images/backhome2.jpg" />
-
     </>
   );
 }

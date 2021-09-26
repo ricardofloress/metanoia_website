@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styled from "styled-components";
+import { motion } from "framer-motion";
 
 
 
@@ -17,6 +18,7 @@ export const Home1Wrapper = styled.div`
     align-items: center;
     display: flex;
     position: relative;
+    overflow: hidden;
 
     @media screen and (max-width: 768px){
         flex-direction: column;
@@ -57,7 +59,7 @@ export const RightDivWrapper = styled.div`
 `;
 
 
-export const FloatingDivWrapper = styled.div`
+export const FloatingDivWrapper = styled(motion.div)`
     width: 50%;
     height: 70%;
     position: absolute;
@@ -113,9 +115,8 @@ export const BtnWrapper = styled.div`
 `;
 
 
-export const TextWrapper = styled.div`
+export const TextWrapper = styled(motion.div)`
     justify-content: center;
-    align-items: center;
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -163,7 +164,7 @@ export const Title = styled.h3`
     }
 `;
 
-export const FirstText = styled.h1`
+export const FirstText = styled.p`
     color: rgba(69,66,61,1);
     text-transform: uppercase;
     letter-spacing: 0.2em;

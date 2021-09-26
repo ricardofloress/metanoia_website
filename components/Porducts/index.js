@@ -12,25 +12,25 @@ const Products = () => {
                     <ProductSingleWrapper>
                         <Square imgBg={imagesOption[0]} />
                         <Text>
-                            CKING A UNIQUE COLOR PALETTE FOR YOUR BRAND
+                            Letras com flores preservadas (Tamanho Grande) para pousar
                         </Text>
                     </ProductSingleWrapper>
                     <ProductSingleWrapper>
                         <Square imgBg={imagesOption[1]} />
                         <Text>
-                            CKING A UNIQUE COLOR PALETTE FOR YOUR BRAND
+                            Letras com flores preservadas (Tamanho pequeno) para pendurar
                         </Text>
                     </ProductSingleWrapper>
                     <ProductSingleWrapper>
                         <Square imgBg={imagesOption[2]} />
                         <Text>
-                            CKING A UNIQUE COLOR PALETTE FOR YOUR BRAND
+                            Moldura com letra de flores preservadas
                         </Text>
                     </ProductSingleWrapper>
                     <ProductSingleWrapper>
                         <Square imgBg={imagesOption[3]} />
                         <Text>
-                            CKING A UNIQUE COLOR PALETTE FOR YOUR BRAND
+                            Moldura com imagem em flores preservadas + texto
                         </Text>
                     </ProductSingleWrapper>
                 </ProductsWrapper>
