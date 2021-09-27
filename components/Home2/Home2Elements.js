@@ -24,7 +24,7 @@ export const HomeBackgroundWrapper = styled.div`
 export const Home2Wrapper = styled.div`
     width: 100%;
     max-width: 1114px;
-    height: 230px;
+    height: 270px;
     display: flex;
     justify-content: center;
     align-items: center;
