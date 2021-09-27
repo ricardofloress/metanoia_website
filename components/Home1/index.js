@@ -84,7 +84,7 @@ const Home1 = () => {
                             <ImageWrapper imgBg={imagesOption[imgCounter]} />
                             <LogoWrapper>
                                 <Image
-                                    src="/images/metanoia_logo_reverse.png" // Route of the image file
+                                    src="/images/metanoia_logo_square.png" // Route of the image file
                                     layout={"fill"} // Desired size with correct aspect ratio
                                     alt="Metanoia"
                                     objectFit="contain"
