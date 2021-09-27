@@ -17,13 +17,14 @@ export const HomeBackgroundWrapper = styled.div`
     left: 0;
     background-image: url('/images/bgback.png');
     background-repeat: no-repeat;
+    background-position-y: center ;
     opacity: 0.4;
 `;
 
 export const Home2Wrapper = styled.div`
     width: 100%;
     max-width: 1114px;
-    height: 300px;
+    height: 230px;
     display: flex;
     justify-content: center;
     align-items: center;
