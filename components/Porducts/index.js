@@ -12,25 +12,25 @@ const Products = () => {
                     <ProductSingleWrapper>
                         <Square imgBg={imagesOption[0]} />
                         <Text>
-                            Letras com flores preservadas (Tamanho Grande) para pousar
+                            Letras com flores preservadas <br /> Grande
                         </Text>
                     </ProductSingleWrapper>
                     <ProductSingleWrapper>
                         <Square imgBg={imagesOption[1]} />
                         <Text>
-                            Letras com flores preservadas (Tamanho pequeno) para pendurar
+                            Letras com flores preservadas <br /> Pequena
                         </Text>
                     </ProductSingleWrapper>
                     <ProductSingleWrapper>
                         <Square imgBg={imagesOption[2]} />
                         <Text>
-                            Moldura com letra de flores preservadas
+                            Letra de flores preservadas em moldura
                         </Text>
                     </ProductSingleWrapper>
                     <ProductSingleWrapper>
                         <Square imgBg={imagesOption[3]} />
                         <Text>
-                            Moldura com imagem em flores preservadas + texto
+                            Cartão postal com flores preservadas
                         </Text>
                     </ProductSingleWrapper>
                 </ProductsWrapper>

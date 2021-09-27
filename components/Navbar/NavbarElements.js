@@ -30,7 +30,9 @@ export const NavbarContainer = styled.div`
 `;
 
 export const LeftWrapper = styled.div`
- 
+    justify-content: center;
+    align-items: center;
+    display: flex;
 `;
 
 export const RightWrapper = styled.div`
@@ -41,7 +43,9 @@ export const RightWrapper = styled.div`
 `;
 
 export const LogoWrapper = styled.div`
-
+    justify-content: center;
+    align-items: center;
+    display: flex;
 `;
 
 export const MenuWrapper = styled.div`

@@ -7,12 +7,12 @@ const Home2 = () => {
             <Home2Container>
                 <HomeBackgroundWrapper />
                 <Home2Wrapper>
-                    <TitleWrapper>
+                    {/*<TitleWrapper>
                         <Title>
                             KIND WORDS
                         </Title>
                     </TitleWrapper>
-                    <Separator />
+                    <Separator />*/}
                     <TextWrapper>
                         <Text>
                             Cada produto, é para mim, um desafio, desenhado e elaborado à medida do cliente, carregando um pouco do meu olhar, sensibilidade e inspiração.
