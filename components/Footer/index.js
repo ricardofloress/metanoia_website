@@ -20,12 +20,12 @@ const Footer = () => {
                         <FooterLinkItems>
                             <FooterLink>
                                 <Link href="/">
-                                    Home
+                                    Inicio
                                 </Link>
                             </FooterLink>
                             <FooterLink>
                                 <Link href="/trabalhos">
-                                Portefólio
+                                    Portefólio
                                 </Link>
                             </FooterLink>
                             <FooterLink>

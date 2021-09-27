@@ -72,7 +72,7 @@ const Home1 = () => {
                             </FirstText>
                             <SecondText>
                                 Esta marca nasceu do gosto pela decoração, pelas flores, mas sobretudo pelos detalhes.
-                                Acredito na importância, que a beleza da natureza traduz no nosso bem-estar, e por isso exploro todas as suas cores e texturas, para que sinta, no seu espaço, uma maior harmonia e tranquilidade.
+                                Acredito na importância que a beleza da natureza traduz no nosso bem-estar e, por isso, exploro todas as suas cores e texturas para que sinta, no seu espaço, uma maior harmonia e tranquilidade.
                             </SecondText>
                         </TextWrapper>
                     </RightDivWrapper>

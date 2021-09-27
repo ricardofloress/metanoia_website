@@ -15,8 +15,8 @@ const Home2 = () => {
                     <Separator />*/}
                     <TextWrapper>
                         <Text>
-                            Cada produto, é para mim, um desafio, desenhado e elaborado à medida do cliente, carregando um pouco do meu olhar, sensibilidade e inspiração.
-                            Sejam bem-vindos a esta nova marca, portuguesa, que agora também é vossa.
+                            Cada produto, é para mim, um desafio, desenhado e elaborado à medida do cliente, carregando um pouco do meu olhar, sensibilidade e inspiração.<br />
+                            <p style={{ fontSize: '17px' }}>Sejam bem-vindos a esta nova marca, portuguesa, que agora também é vossa.</p>
                         </Text>
                     </TextWrapper>
                 </Home2Wrapper>

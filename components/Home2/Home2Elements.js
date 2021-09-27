@@ -50,7 +50,7 @@ export const Text = styled.p`
     line-height: 2.4;
     letter-spacing: 0.02em;
     font-size: 14px;
-    text-align: left;
+    text-align: center;
     font-family: 'Roboto';
     font-weight: 400;
     font-style: normal;
