@@ -65,7 +65,7 @@ const Contact = () => {
                 <ContactWrapper>
                     <ContactFormWrapper>
                         <ContactForm onSubmit={handleSubmit}>
-                            <FromTitle>Fale Connosco!</FromTitle>
+                            <FromTitle>Deixe a sua Mensagem</FromTitle>
                             <StyledInput
                                 type="text"
                                 name="name"
@@ -98,7 +98,7 @@ const Contact = () => {
                         <ContactInfoBg />
                         <ContactInfoTextWrapper>
                             <ConatctInfoTextTitle>
-                                Contacta-me diretamente:
+                                Redes Sociais
                             </ConatctInfoTextTitle>
                             <Separator />
                             <SocialMediaWrapper>

@@ -15,7 +15,7 @@ const Home2 = () => {
                     <Separator />*/}
                     <TextWrapper>
                         <Text>
-                            Cada produto, é para mim, um desafio, desenhado e elaborado à medida do cliente, carregando um pouco do meu olhar, sensibilidade e inspiração.<br />
+                            Cada produto é, para mim, um desafio desenhado e elaborado à medida do cliente, carregando um pouco do meu olhar, sensibilidade e inspiração.<br />
                             <p style={{ fontSize: '17px' }}>Sejam <span style={{ textTransform: 'uppercase' }}>bem-vindos</span> a esta nova marca, portuguesa, que agora também é vossa.</p>
                         </Text>
                     </TextWrapper>

@@ -276,7 +276,7 @@ export const Separator = styled.div`
 `;
 
 export const SocialMediaWrapper = styled.div`
-    width: 30%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: space-between;
