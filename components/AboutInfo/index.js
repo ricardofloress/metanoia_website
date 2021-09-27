@@ -22,8 +22,8 @@ const AboutInfo = () => {
 
                             </FirstText>
                             <SecondText>
-                                Sou estudante na área de turismo, experiente em decoração e flores, agora fundadora da marca Metanoia e convicta de que será um projeto que pode unir o melhor destes dois mundos.
-                                <br />Sou apaixonada por turismo de natureza e por todos os seus pormenores, e foi da vontade de trazer até casa um pouco dessa beleza que fez surgiu o conceito da Metanoia onde cada detalhe é repleto de amor.
+                                Estudante na área de turismo e profissionalmente experiente em decoração e flores, sou agora fundadora da marca Metanoia, convicta de que será um projeto que pode unir o melhor destes dois mundos.
+                                <br />Apaixonada por turismo de natureza e por todos os seus pormenores, foi da vontade de trazer até casa um pouco dessa beleza que fez surgir o conceito da Metanoia, onde cada detalhe é repleto de amor.
                             </SecondText>
                         </TextWrapper>
                     </RightDivWrapper>
