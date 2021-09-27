@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const ProductsContainer = styled.div`
     width: 100%;
-    padding: 100px 50px;
+    padding: 100px 50px 70px 50px;
 `;
 
 
@@ -62,6 +62,7 @@ export const Square = styled.div`
 `;
 
 export const Text = styled.h3`
+    margin-bottom: 0;
     margin-top: 40px;
     line-height: 2.4;
     text-align: center;
