@@ -2,9 +2,6 @@ import Link from "next/link";
 import styled from "styled-components";
 
 
-
-
-
 export const AboutContainer = styled.div`
     width: 100%;
 `;
@@ -20,7 +17,6 @@ export const AboutWrapper = styled.div`
     @media screen and (max-width: 768px){
         flex-direction: column;
         height: unset;
-
     }
 `;
 
@@ -36,8 +32,9 @@ export const LeftDivWrapper = styled.div`
         background-position:center left;
         background-repeat: no-repeat;
         order: 1;
-        opacity: 0.3;
-        background-image: url('/images/dry-flowers.jpg');
+        /*-opacity: 0.3;
+        background-image: url('/images/dry-flowers.jpg');*/
+        background-color: #f1eeec;
     }
 `;
 
@@ -65,7 +62,6 @@ export const FloatingDivWrapper = styled.div`
     left: 20%;
     top: 50%;
     transform: translateY(-50%);
-
 
     @media screen and (max-width: 768px){
         width: 80%;
@@ -171,7 +167,6 @@ export const SecondText = styled.p`
     font-weight: 400;
     font-style: normal;
 
-    
     @media screen and (max-width: 768px){
         text-align: center;
     }
@@ -189,7 +184,7 @@ export const ImageWrapper = styled.div`
     background-repeat: no-repeat;
 
     @media screen and (max-width: 768px){
-        display: none;
+        height: 100%;
     }
 `;
 
@@ -201,7 +196,6 @@ export const LogoWrapper = styled.div`
     justify-content: center;
     align-items: center;
     display: flex;
-    
     
     @media screen and (max-width: 768px){
         width: 100%;

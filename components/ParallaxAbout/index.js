@@ -6,7 +6,7 @@ const ParallaxAbout = ({ imgBg, link, imgOverlay }) => {
     return (
         <>
             <ParallaxContainer>
-                <ParralaxOverlay imgOverlay={imgOverlay}/>
+                {/*<ParralaxOverlay imgOverlay={imgOverlay}/>*/}
                 <ParallaxWrapper imgBg={imgBg}>
                     <InfoWrapper>
                         <Infotext>

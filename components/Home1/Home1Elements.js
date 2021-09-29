@@ -35,13 +35,14 @@ export const LeftDivWrapper = styled.div`
     @media screen and (max-width: 768px){
         height: 50%;
         width: 100%;
-        background-image: url(${({ imgBg }) => (imgBg ? imgBg : imgBg)});
+        /*background-image: url(${({ imgBg }) => (imgBg ? imgBg : imgBg)});*/
         background-size: cover;
         background-position:center left;
         background-repeat: no-repeat;
         order: 1;
-        opacity: 0.3;
-        background-image: url('/images/dry-flowers.jpg');
+        /*opacity: 0.3;*/
+        background-color: #f1eeec;
+        /*background-image: url('/images/dry-flowers.jpg');*/
     }
 `;
 
@@ -124,6 +125,7 @@ export const TextWrapper = styled(motion.div)`
     @media screen and (max-width: 768px){
         width: 80%;
         margin-top: 100px;
+        align-items: center;
     }
 `;
 
@@ -161,6 +163,8 @@ export const Title = styled.h3`
 
     @media screen and (max-width: 768px){
         text-align: center;
+        align-self: center;
+
     }
 `;
 

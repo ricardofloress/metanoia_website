@@ -20,7 +20,12 @@ export const HomeBackgroundWrapper = styled.div`
     background-position-y: center ;
     background-position-x: left;
     opacity: 0.4;
-    transform: rotate(180deg)`;
+    transform: rotate(180deg);
+
+    @media screen and (max-width: 768px){
+        background-position-x: right;
+    }
+`;
 
 export const Home2Wrapper = styled.div`
     width: 100%;

@@ -127,7 +127,10 @@ export const SocialLogo = styled.div`
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-    font-weight: bold;
+
+    @media screen and (max-width: 768px){
+        margin-top: 15px;
+    }
 `;
 
 export const WebsiteRights = styled.small`
