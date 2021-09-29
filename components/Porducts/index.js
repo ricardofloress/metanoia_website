@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 
 const Products = () => {
 
-    const [imagesOption, setImagesOption] = useState(["/images/letterR.png", "/images/letterC.png", "/images/letterL.png", "/images/letter.png"]);
+    const [imagesOption, setImagesOption] = useState(["/images/letra_caixa.jpeg", "/images/letra_madeira.jpeg", "/images/moldura.jpeg", "/images/postal.jpeg"]);
 
     return (
         <>

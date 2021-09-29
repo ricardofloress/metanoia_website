@@ -18,8 +18,9 @@ export const HomeBackgroundWrapper = styled.div`
     background-image: url('/images/bgback.png');
     background-repeat: no-repeat;
     background-position-y: center ;
+    background-position-x: left;
     opacity: 0.4;
-`;
+    transform: rotate(180deg)`;
 
 export const Home2Wrapper = styled.div`
     width: 100%;

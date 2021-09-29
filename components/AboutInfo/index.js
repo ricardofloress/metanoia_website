@@ -29,15 +29,15 @@ const AboutInfo = () => {
                     </RightDivWrapper>
                     <FloatingDivWrapper>
                         <ContentFloatWrapper>
-                            <ImageWrapper imgBg="/images/letterR.png" />
-                            <LogoWrapper>
+                            <ImageWrapper imgBg="/images/ana_2.png" />
+                            {/*<LogoWrapper>
                                 <Image
                                     src="/images/letterC.png" // Route of the image file
                                     layout={"fill"} // Desired size with correct aspect ratio
                                     alt="Metanoia"
                                     objectFit="cover"
                                 />
-                            </LogoWrapper>
+                            </LogoWrapper>*/}
                         </ContentFloatWrapper>
                     </FloatingDivWrapper>
                 </AboutWrapper>

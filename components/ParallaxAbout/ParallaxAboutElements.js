@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const ParallaxContainer = styled.div`
+    overflow: hidden;
+    position: relative;
     margin-top: 80px;
     width: 100%;
     display: flex;
@@ -14,7 +16,8 @@ export const ParallaxWrapper = styled.div`
     height: 400px;
     justify-content: center;
     align-items: center;
-    background-image: url(${({ imgBg }) => (imgBg ? imgBg : imgBg)});
+    background-color: #b6ccd6;
+    /*background-image: url(${({ imgBg }) => (imgBg ? imgBg : imgBg)});*/
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -93,6 +96,18 @@ export const FirstText = styled.h1`
             margin: 15px auto;
         }
     }
+`;
 
-
+export const ParralaxOverlay = styled.div`
+    width: 56%;
+    height: 52%;
+    position: absolute;
+    right: -4%;
+    bottom: 0%;
+    background-image: url(${({ imgOverlay }) => (imgOverlay ? imgOverlay : imgOverlay)});
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: rotate(191deg);
+    opacity: 0.2;
 `;

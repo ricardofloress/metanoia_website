@@ -98,7 +98,7 @@ export const ContentFloatWrapper = styled.div`
     display: flex;
     align-self: flex-end;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
 
     @media screen and (max-width: 768px){
@@ -179,13 +179,13 @@ export const SecondText = styled.p`
 
 export const ImageWrapper = styled.div`
     width: 100%;
-    height: 47%;
+    height: 95%;
     justify-content: center;
     align-items: center;
     display: flex;
     background-image: url(${({ imgBg }) => (imgBg ? imgBg : imgBg)});
     background-size: cover;
-    background-position:center;
+    background-position: center;
     background-repeat: no-repeat;
 
     @media screen and (max-width: 768px){

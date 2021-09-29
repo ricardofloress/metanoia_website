@@ -1,11 +1,12 @@
 import React from 'react';
 import Link from 'next/link';
-import { ParallaxContainer, ParallaxWrapper, InfoWrapper, Infotext, Title, FirstText } from './ParallaxAboutElements';
+import { ParralaxOverlay, ParallaxContainer, ParallaxWrapper, InfoWrapper, Infotext, Title, FirstText } from './ParallaxAboutElements';
 
-const ParallaxAbout = ({ imgBg, link }) => {
+const ParallaxAbout = ({ imgBg, link, imgOverlay }) => {
     return (
         <>
             <ParallaxContainer>
+                <ParralaxOverlay imgOverlay={imgOverlay}/>
                 <ParallaxWrapper imgBg={imgBg}>
                     <InfoWrapper>
                         <Infotext>
@@ -15,7 +16,6 @@ const ParallaxAbout = ({ imgBg, link }) => {
                             <FirstText>
                                 Este sonho foi plantado no meu coração por uma razão
                                 <br />E, por onde eu for, vou florescer.
-
                             </FirstText>
                         </Infotext>
                     </InfoWrapper>
